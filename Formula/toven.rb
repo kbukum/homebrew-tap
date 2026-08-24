@@ -1,28 +1,28 @@
 class Toven < Formula
   desc "Argv-first development and CI task planner for multi-module repositories"
   homepage "https://github.com/kbukum/toven"
-  version "0.1.0-alpha.8"
+  version "0.1.0-alpha.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.8/toven-aarch64-apple-darwin.tar.gz"
-      sha256 "32c2c6c1a2decab62f5433a1c8d18668e1b6f77fdf1b20660b6c817504f7bc63"
+      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-aarch64-apple-darwin.tar.gz"
+      sha256 "97ea670fdd5ddcf720401fc986c5f0cc0b3a53b10b9081d59bc9abb7ecdd906d"
     end
     on_intel do
-      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.8/toven-x86_64-apple-darwin.tar.gz"
-      sha256 "964151756008831842979577a56de5639c6c43b23fbb23a17ab13e0f8be11477"
+      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-x86_64-apple-darwin.tar.gz"
+      sha256 "ffae34dbb34c7fa828f418e21850317ec185bd5af670765a655e632b85b06ea8"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.8/toven-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "ecac272163457e5d1f8daa21c0068bd6a203d08b268a8ee0dc93693de71a2eca"
+      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "97ab98b2b65ff681eb1b25f3e1c30376c41df31b73328affa54b0b9c91d39afb"
     end
     on_intel do
-      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.8/toven-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eb2e79eee9c8e29da049b233c78307ae0b09fb8f5405fe21db6b602aaa39313c"
+      url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "4433b614cddd8fff8fb1c5d7d9714ad617067a6470aed09a74aa18b8bb850e0b"
     end
   end
 
