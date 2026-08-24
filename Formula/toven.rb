@@ -7,22 +7,22 @@ class Toven < Formula
   on_macos do
     on_arm do
       url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-aarch64-apple-darwin.tar.gz"
-      sha256 "97ea670fdd5ddcf720401fc986c5f0cc0b3a53b10b9081d59bc9abb7ecdd906d"
+      sha256 "c9bca7c847cc48597cf179e801592ba7ee412612148b3c938e2b7b3c8a981eb6"
     end
     on_intel do
       url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-x86_64-apple-darwin.tar.gz"
-      sha256 "ffae34dbb34c7fa828f418e21850317ec185bd5af670765a655e632b85b06ea8"
+      sha256 "1da251ffba34114869588ee329f20434ae9d4ed0d4ec5311c5413f8f991ced2b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "97ab98b2b65ff681eb1b25f3e1c30376c41df31b73328affa54b0b9c91d39afb"
+      sha256 "499bb201a9f6e1d39d2ebc5e1d36296c4c244ddbbadaa8022a8a782a4dfd6efd"
     end
     on_intel do
       url "https://github.com/kbukum/toven/releases/download/v0.1.0-alpha.9/toven-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "4433b614cddd8fff8fb1c5d7d9714ad617067a6470aed09a74aa18b8bb850e0b"
+      sha256 "27a240d3780ec7fa897273b0f9fc81417f8c00c1c60ec65e39b318562dd508db"
     end
   end
 
